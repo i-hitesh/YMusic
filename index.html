@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="new.css">
+    <title>Youtube Music Clone</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="left">
+                <i class="ri-youtube-fill">Music</i>
+            </div>
+            <div class="right">
+                <i class="ri-cast-line"></i>
+                <i class="ri-search-line"></i>
+                <img src="moon-fill.png" alt="" id="icon">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="section1">
+            <ul>
+                <li>Relax</li>
+                <li>Energise</li>
+                <li>Work Out</li>
+                <li>Community</li>
+                <li>Meditaion</li>
+                <li>Custom</li>
+                <li>K-pop</li>
+                <li>The Local Train</li>
+            </ul>
+        </div>
+
+        <div class="section2">
+            <div class="heading">
+                <h2>Listen again</h2>
+                <h5>More</h5>
+            </div>
+
+            <div class="content">
+                <div class="pic">
+                    <img src="p1.PNG" alt="music1">
+                    <h4>Aakhon se Batnana</h4>
+                </div>
+                <div class="pic">
+                    <img src="p2.PNG" alt="music1">
+                    <h4>Alag Aasman</h4>
+                </div>
+                <div class="pic">
+                    <img src="p3.PNG" alt="music1">
+                    <h4>Let Her Go</h4>
+                </div>
+                <div class="pic">
+                    <img src="p2.PNG" alt="music1">
+                    <h4>Alag Aasman</h4>
+                </div>
+                <div class="pic">
+                    <img src="p3.PNG" alt="music1">
+                    <h4>Let Her Go</h4>
+                </div>
+                <div class="pic">
+                    <img src="p4.PNG" alt="music1">
+                    <h4>Somewhere only we</h4>
+                </div>
+                <div class="pic">
+                    <img src="p5.PNG" alt="music1">
+                    <h4>Apna Banale</h4>
+                </div>
+                <div class="pic">
+                    <img src="p1.PNG" alt="music1">
+                    <h4>Aakhon se Batnana</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="section3">
+            <h5>Start Radio Based on a Song</h5>
+            <div class="heading">
+                <h2>Quick Picks</h2>
+                <h5>Play All</h5>
+            </div>
+            <div class="content1">
+                <div class="cont-left">
+                    <div class="pic">
+                        <p><img class="music" src="p1.PNG" alt="music1">
+                        <h4>Aakhon se Batnana</h4>
+                        <h6>Artist : Harry</h6>
+                        </p>
+                    </div>
+                    <div class="pic">
+                        <p><img class="music" src="p2.PNG" alt="music1">
+                        <h4>Alag Assman</h4>
+                        <h6>Artist : Harry</h6>
+                        </p>
+                    </div>
+                    <div class="pic">
+                        <p><img class="music" src="p3.PNG" alt="music1">
+                        <h4>Atlantis</h4>
+                        <h6>Artist : Harry</h6>
+                        </p>
+                    </div>
+                    <div class="pic">
+                        <p><img class="music" src="p4.PNG" alt="music1">
+                        <h4>Somewhere only we</h4>
+                        <h6>Artist : Harry</h6>
+                        </p>
+                    </div>
+                    <div class="pic">
+                        <p><img class="music" src="p5.PNG" alt="music1">
+                        <h4>Apna Banale</h4>
+                        <h6>Artist : Harry</h6>
+                        <!-- <img class="dot-menu" src="dots.png" alt=""> -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <i class="ri-home-4-line"></i>
+        <i class="ri-compass-3-line"></i>
+        <i class="ri-disc-line"></i>           
+    </footer>
+
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src = "sun-fill.png";
+            }else{
+                icon.src ="moon-fill.png";
+            }
+        }
+    </script>
+</body>
+
+</html>

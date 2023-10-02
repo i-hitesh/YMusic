@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: var(--primary-color); */
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw;
+    font-size: 6vw;
+    color: var(--secondary-color);
+}
+
+
+
+main .section1 {
+    margin: 4vh 3vw;
+}
+
+#moon{
+    cursor: pointer;    
+}
+
+/* Section 1 */
+
+.section1 ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+    flex-wrap: wrap;
+}
+
+.section1 ul li {
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+/* Section 2 */
+
+.section2 {
+    /* background-color: red; */
+    margin: 4vh 3vw;
+}
+
+.section2 .heading {
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3vh;
+}
+
+.section2 h5 {
+    color: grey;
+}
+
+.section2 .content {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content .pic {
+    margin: 2vh 2vw;
+}
+
+.content .pic h4 {
+    padding-top: 1vh;
+}
+
+.content img {
+    border-radius: 4vw;
+
+}
+
+/* Section 3 */
+
+.section3 {
+    /* background-color: red; */
+    margin: 4vh 3vw;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content1 .cont-left {
+    /* background-color: yellow; */
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.content1 p {
+    float: left;
+}
+
+.section3 .heading {
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3vh;
+}
+
+.section3 h5 {
+    color: grey;
+}
+
+.section3 .content1 {
+    height: 100%;
+    width: 100%;
+
+}
+
+.content1 h4 {
+    font-family: 'Croissant One', cursive;
+    padding: 10vw;
+    position: relative;
+    left: 5vw;
+    bottom: 3vh;
+}
+
+.content1 h6 {
+    position: relative;
+    bottom: 4vh;
+    width: 30%;
+    left: 116px;
+}
+
+.content1 .cont-left .pic {
+    border: 2px solid;
+    border-radius: 13px;
+    padding: 8px;
+    margin: 2vh 0;
+}
+
+.content1 .cont-left .pic .music {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Adding 3 dots png */
+
+/* .cont-left .dot-menu{
+    position: relative;
+    bottom: 33vh;
+    left: 84vw;
+    width: 20px;
+    height: auto;
+} */
+
+/* Footer */
+
+footer {
+    height: 7%;
+    background-color:var(--primary-color);
+    position: sticky;
+    bottom: 0;
+    box-shadow: 10px 5px 12px rgb(74, 74, 74);
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bolder;
+    color: var(--secondary-color);
+}
